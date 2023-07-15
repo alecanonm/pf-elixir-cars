@@ -4,7 +4,7 @@ const Newsletter = () => {
       <section>
         <div className=" rounded-lg  relative overflow-hidden bg-cover bg-no-repeat bg-[50%] bg-[url('https://images.wallpaperscraft.com/image/single/bmw_headlights_car_124112_1280x720.jpg')] h-[250px]"></div>
         <div className="container px-2 md:px-12">
-          <div className="block rounded-lg bg-[hsla(0,0%,100%,0.7)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:py-16 md:px-12 mt-[-100px] backdrop-blur-[30px]">
+          <div className="block rounded-lg bg-[#ffffffc9] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.00)] dark:bg-[hsla(0,0%,5%,0)] dark:shadow-black/20 md:py-16 md:px-12 mt-[-100px] backdrop-blur-[30px]">
             <div className="flex flex-wrap justify-center text-center lg:text-left">
               <div className="w-full shrink-0 grow-0 basis-auto md:px-6 xl:w-10/12">
                 <div className="grid items-center gap-x-6 lg:grid-cols-2">
@@ -25,7 +25,7 @@ const Newsletter = () => {
                     >
                       <input
                         type="text"
-                        className="peer block min-h-[auto] w-full rounded border-0 bg py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]"
+                        className="peer block min-h-[auto] w-full rounded border-0 bg py-[0.32rem] px-3 leading-[2.15] outline-none  dark:peer-focus:text-primary placeholder:text-slate-950"
                         id="exampleFormControlInput2"
                         placeholder="Enter your email"
                       />
