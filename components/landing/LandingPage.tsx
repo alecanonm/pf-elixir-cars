@@ -9,11 +9,11 @@ const LandingPage = () => {
 
   return (
     <section className=" flex  max-sm:flex-col ">
-      <section className="flex-grow w-96">
+      <section className="flex-grow w-96 max-md:w-auto">
         <Carousel images={images} />
       </section>
       <article className="flex-grow flex flex-col text-center justify-center  text">
-        <h1 className="mb-6 text-4xl font-bold">Compra con nosotros!</h1>
+        <h1 className="mb-2 text-4xl font-bold">Compra con nosotros!</h1>
         <ul className="flex max-sm:flex-col py-5 justify-center flex-wrap gap-4 text-lg font-bold text-slate-700">
           <li>Mas seguro</li>
           <li>Nos adaptamos al usuario</li>
