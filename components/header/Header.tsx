@@ -17,7 +17,9 @@ const Header = () => {
           <div className="flex  h-full items-center justify-center">
             <div className="px-6 text-center text-white md:px-12">
               <section className="m-10">
-                <h1 className="mb-6 text-5xl font-bold">Elixir Cars</h1>
+                <h1 className="mb-6 text-5xl font-bold animate-pulse">
+                  Elixir Cars
+                </h1>
                 <p className="text-2xl">
                   Somos la mejor empresa de compra y venta de automobiles
                 </p>
@@ -25,13 +27,13 @@ const Header = () => {
               <section className="flex max-sm:flex-col justify-center gap-5">
                 <button
                   type="button"
-                  className="bg-[rgba(225,210,0,0.70)] hover:bg-transparent active:scale-105 inline-block rounded border-2 px-10 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50  "
+                  className="bg-[rgb(207,142,43)] hover:bg-[rgba(207,131,7,0.9)] active:scale-105 inline-block rounded border-2 px-10 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50  max-sm:rounded-full "
                 >
                   Ingresar
                 </button>
                 <button
                   type="button"
-                  className=" bg-[rgba(0,100,0,0.70)] hover:bg-transparent active:scale-105 inline-block rounded border-2  px-8 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50"
+                  className="bg-[rgba(255,255,255,0.05)] hover:bg-[rgba(255,255,255,0.11)] active:scale-105 inline-block rounded border-2 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 max-sm:rounded-full  "
                 >
                   Registrarse
                 </button>
