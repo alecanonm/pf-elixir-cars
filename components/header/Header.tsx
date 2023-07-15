@@ -7,25 +7,35 @@ const Header = () => {
           backgroundPosition: "50%",
           backgroundImage:
             "url('https://images.pexels.com/photos/9260918/pexels-photo-9260918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
-          height: "350px",
+          height: "100vh",
         }}
       >
         <div
           className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0.75)" }}
+          style={{ backgroundColor: "rgba(0, 0, 0, 0.70)" }}
         >
-          <div className="flex h-full items-center justify-center">
+          <div className="flex  h-full items-center justify-center">
             <div className="px-6 text-center text-white md:px-12">
-              <h1 className="mb-6 text-5xl font-bold">Heading</h1>
-              <h3 className="mb-8 text-3xl font-bold">Subeading</h3>
-              <button
-                type="button"
-                className="inline-block rounded border-2 border-neutral-50 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
-                data-te-ripple-init
-                data-te-ripple-color="light"
-              >
-                Get started
-              </button>
+              <section className="m-10">
+                <h1 className="mb-6 text-5xl font-bold">Elixir Cars</h1>
+                <p className="text-2xl">
+                  Somos la mejor empresa de compra y venta de automobiles
+                </p>
+              </section>
+              <section className="flex max-sm:flex-col justify-center gap-5">
+                <button
+                  type="button"
+                  className="bg-[rgba(225,210,0,0.70)] hover:bg-transparent active:scale-105 inline-block rounded border-2 px-10 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50  "
+                >
+                  Ingresar
+                </button>
+                <button
+                  type="button"
+                  className=" bg-[rgba(0,100,0,0.70)] hover:bg-transparent active:scale-105 inline-block rounded border-2  px-8 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50"
+                >
+                  Registrarse
+                </button>
+              </section>
             </div>
           </div>
         </div>
