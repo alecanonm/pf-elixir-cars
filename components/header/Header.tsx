@@ -21,7 +21,7 @@ const Header = () => {
                   Elixir Cars
                 </h1>
                 <p className="text-2xl">
-                  Somos la mejor empresa de compra y venta de automobiles
+                  Somos la mejor empresa de compra y venta de automoviles
                 </p>
               </section>
               <section className="flex max-sm:flex-col justify-center gap-5">
