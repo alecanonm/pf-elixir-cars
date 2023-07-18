@@ -1,4 +1,10 @@
-const Header = () => {
+import React from "react";
+
+interface header {
+  onclickHandler: () => void;
+}
+
+const Header: React.FC<header> = ({ onclickHandler }) => {
   return (
     <header>
       <div
@@ -32,6 +38,7 @@ const Header = () => {
                   Ingresar
                 </button>
                 <button
+                  onClick={onclickHandler}
                   type="button"
                   className="bg-[rgba(255,255,255,0.05)] hover:bg-[rgba(255,255,255,0.11)] active:scale-105 inline-block rounded border-2 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 max-sm:rounded-full  "
                 >
